@@ -1,0 +1,6 @@
+*.zip
+.vpn
+.terraform
+.env
+.envrc
+.DS_Store

@@ -1,0 +1,3 @@
+This code uses the Boto3 library to interact with S3. When a file drops in an S3 bucket, Lambda gets triggered and passes an event object containing information about the S3 object that was uploaded. The function then downloads the file to a temporary directory (/tmp) and processes it. Finally, the function deletes the file from the temporary directory.
+
+Note that this is just a basic example, and you can modify the code to suit your specific use case. Also, make sure to configure the appropriate permissions for your Lambda function to access the S3 bucket.
